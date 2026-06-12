@@ -146,7 +146,7 @@ The dashboard shows an animated water-filled bowl with a live percentage that po
 | Percentage always shows `---%` on the web page | Browser can't reach the device — confirm the IP, same network, and no firewall blocking port 80. |
 | Distance reading is `0` or wildly unstable | Ultrasonic sensor needs **5 V** — if powered from 3.3 V it may misbehave. Also check TRIG/ECHO wiring. |
 | Pump won't stop / won't start | Verify the relay's logic level (active-LOW vs active-HIGH) and re-run calibration. |
-| Calibration won't save | EEPROM commit can fail on first run — re-flash and try again. |
+| Calibration won't save | EEPROM commit can fail on first run — re-flash and try again later. |
 
 ---
 
